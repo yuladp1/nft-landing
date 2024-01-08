@@ -27,14 +27,15 @@
             </div>
         </div>
 
-        <div class="image-hero relative w-[464px] h-[544px] rounded-3xl flex grow-0 shrink-1  bg-no-repeat bg-cover">
+        <div
+            class="image-hero mr-[40px] relative w-[464px] h-[544px] rounded-3xl flex grow-0 shrink-1  bg-no-repeat bg-cover">
             <figure class="container-stars absolute w-[140px] h-[140px] top-[50%] left-[-70px] z-10 animate-pulse">
                 <img src="../assets/images/Star-center.svg" alt="" class="absolute top-[38%] left-[38%]">
             </figure>
 
             <div
-                class="absolute w-[304px] p-[20px] bg-[#131E3A] flex flex-col align-center z-10 bottom-[-50px] right-[-50px]">
-                <div class="flex justify-between w-[100%]">
+                class="absolute w-[304px] p-[20px] bg-[#131E3A] flex flex-col align-center z-10 bottom-[-50px] right-[-50px] rounded-[16px] border-2 border-transparent border-y-lime-900">
+                <div class="flex justify-between w-[100%] rounded-[16px] ">
                     <div>
                         <p class="text-lime-500">Ends in</p>
                         <p>05:45:47</p>
@@ -44,20 +45,84 @@
                         <p>0.24ETH</p>
                     </div>
                 </div>
-                <p class="w-[100%] mt-[24px] leading-[52px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around"> <span>Place a bit</span></p>
+                <p
+                    class="w-[100%] mt-[24px] leading-[52px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around">
+                    <span>Place a bit</span>
+                </p>
             </div>
         </div>
     </section>
-    
-    
-<!-- section "Amazing and Super Unique Art of This Week" -->  
-<section class="flex justify-between mt-[92px]">
-    <h2 class="text-5xl w-[530px] text-white shrink-1 leading-[120%]"><span class="text-lime-500">Amazing</span> and Super Unique Art of This <span class="text-lime-500">Week</span></h2>
-<button class="self-end">See all</button>
-</section>
 
 
-<!--            -->
+    <!-- section "Amazing and Super Unique Art of This Week" -->
+    <section class="flex justify-between mt-[92px]">
+        <h2 class="text-5xl w-[560px] text-white shrink-1 leading-[120%]"><span class="text-lime-500">Amazing</span> and
+            Super Unique Art of This <span class="text-lime-500">Week</span></h2>
+        <button class="self-end">See all</button>
+    </section>
+
+    <section class="w-[100%] flex pt-[64px] justify-between flex-wrap">
+        <div class="w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]">
+            <div class="relative pb-[100%] w-[100%] rounded-[16px]">
+                <img src="../assets/images/art1.png" alt="" class="absolute object-cover w-[100%] h-[100%]">
+            </div>
+            <div class="wrapper-text relative mt-[24px] flex flex-wrap items-center justify-between text-white">
+                <span class="text-[24px]">Cyberpunk Cocomo</span>
+                <span class="container-etherium flex text-[16px]">490ETN</span>
+            </div>
+            <div class="mt-[16px] flex justify-between items-center flex-wrap">
+                <div class="">
+                    <p class="text-[#838382] text-sm">Ending in</p>
+                    <div class="container-clocks flex text-[16px] text-white">03:24:56</div>
+                </div>
+                <p
+                    class="leading-[52px] py-[12px] px-[40px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around">
+                    <span class="text-white">Place a bit</span>
+                </p>
+            </div>
+        </div>
+        <div class="w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]">
+            <div class="relative pb-[100%] w-[100%] rounded-[16px]">
+                <img src="../assets/images/art2.png" alt="" class="absolute object-cover w-[100%] h-[100%]">
+            </div>
+            <div class="wrapper-text relative mt-[24px] flex flex-wrap items-center justify-between text-white">
+                <span class="text-[24px]">Cyberpunk Cocomo</span>
+                <span class="container-etherium flex text-[16px]">490ETN</span>
+            </div>
+            <div class="mt-[16px] flex flex-wrap justify-between items-center">
+                <div class="">
+                    <p class="text-[#838382] text-sm">Ending in</p>
+                    <div class="container-clocks flex text-[16px] text-white">03:24:56</div>
+                </div>
+                <p
+                    class="leading-[52px] py-[12px] px-[40px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around">
+                    <span class="text-white">Place a bit</span>
+                </p>
+            </div>
+        </div>
+        <div class="w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]">
+            <div class="relative pb-[100%] w-[100%] rounded-[16px]">
+                <img src="../assets/images/art3.png" alt="" class="absolute object-cover w-[100%] h-[100%]">
+            </div>
+            <div class="wrapper-text relative mt-[24px] flex flex-wrap items-center justify-between text-white">
+                <span class="text-[24px]">Cyberpunk Cocomo</span>
+                <span class="container-etherium flex text-[16px]">490ETN</span>
+            </div>
+            <div class="mt-[16px] flex flex-wrap justify-between items-center">
+                <div class="">
+                    <p class="text-[#838382] text-sm">Ending in</p>
+                    <div class="container-clocks flex text-[16px] text-white">03:24:56</div>
+                </div>
+                <p
+                    class="leading-[52px] py-[12px] px-[40px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around">
+                    <span class="text-white">Place a bit</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--            -->
 </template>
 
 <script setup >
@@ -67,15 +132,19 @@ definePageMeta({
 </script>
 
 <style scoped>
-.hero-text {
-    font-family: 'Spectral', serif;
-}
-
 .container-stars {
     background-image: url('../assets/images/group.svg');
     background-size: contain;
 }
-
 .image-hero {
     background-image: url('../assets/images/hero.png');
-}</style>
+}
+.container-clocks::before{
+    content: url('../assets/icons/clock.svg');
+    padding-right: 12px;
+}
+.container-etherium::before {
+    content: url('../assets/icons/ethereum-classic.svg');
+    padding-right: 4px;
+}
+</style>

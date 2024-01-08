@@ -1,7 +1,7 @@
 <template>
 <div class="mx-[8%]">
    <header class="my-7">
-    <nav class="flex justify-between text-white">
+    <nav class="flex justify-between text-white ">
         <ul class="flex items-center gap-10 text-white">
             <li class="hover:underline hover:decoration-lime-500 hover:decoration-2 ">Marketplace</li>
             <li class="hover:underline hover:decoration-lime-500 hover:decoration-2">Artists</li>

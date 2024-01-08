@@ -10,6 +10,7 @@ body {
     padding-inline: 111px;
     display: flex;
     flex-direction: column;
+    font-family: 'Inter', sans-serif;
     }
 button {
     @apply
@@ -24,4 +25,7 @@ button {
      text-white
      hover:bg-white 
      hover:text-lime-500;
+}
+h1 {
+      font-family: 'Spectral', serif;
 }
