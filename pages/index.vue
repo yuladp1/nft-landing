@@ -56,7 +56,7 @@
 
     <!-- section "Amazing and Super Unique Art of This Week" -->
     <section class="flex justify-between mt-[92px]">
-        <h2 class="text-5xl w-[560px] text-white shrink-1 leading-[120%]"><span class="text-lime-500">Amazing</span> and
+        <h2 class=""><span class="text-lime-500">Amazing</span> and
             Super Unique Art of This <span class="text-lime-500">Week</span></h2>
         <button class="self-end">See all</button>
     </section>
@@ -120,9 +120,81 @@
             </div>
         </div>
     </section>
-
-
     <!--            -->
+
+    <!-- Create And Sell Your Best NFTs -->
+    <section class="flex flex-wrap justify-between mt-[92px]">
+        <div class="w-[32%]">
+            <div>
+                <h2> Create And Sell <br> <span class="text-lime-500"> Best NFTs</span></h2>
+                <p class="text-white pt-[20px]">Start exploring the world of digital art and NFTs today and take control of
+                    your digital assets
+                    with confidence!</p>
+            </div>
+            <div class="flex justify-start gap-[10px] pt-[40px]">
+                <button>Create Now</button>
+                <button>Learn more</button>
+            </div>
+        </div>
+
+        <div class="relative w-[32%] h-[475px]">
+            <figure class="absolute top-0 right-0 ">
+                <img src="../assets/images/bestNFT1.png" alt="" class="object-cover ">
+            </figure>
+            <figure class="absolute left-[-80%] top-[30%] w-[100%]">
+                <img src="../assets/images/bestNFT2.png" alt="" class="object-cover">
+            </figure>
+        </div>
+    </section>
+
+    <!-- Popular Artists On This Week -->
+
+    <section class="pt-[100px]">
+        <div class="flex justify-between items-center ">
+            <h2>Popular <span class="text-lime-500">Artists</span> <br> On This Week</h2>
+            <button>See all</button>
+        </div>
+
+        <!-- Images block -->
+        <div class="flex justify-between items-stretch w-[100%] ">
+            <div class="flex justify-between flex-wrap items-stretch w-[68%]">
+                <figure class="relative w-[40%] h-[311px]"><img src="../assets//images/artist1.png" alt=""
+                        class="absolute w-full h-full object-cover"></figure>
+                <figure class="relative w-[56%] "><img src="../assets//images/artist2.png" alt=""
+                        class="absolute w-full h-full object-cover"></figure>
+
+                <figure class="relative w-[47%] h-[311px]"><img src="../assets//images/artist3.png" alt=""
+                        class=" absolute w-full h-full object-cover"></figure>
+                <figure class="relative w-[47%] h-[311px]"><img src="../assets//images/artist4.png" alt=""
+                        class="absolute w-full h-full object-cover"></figure>
+            </div>
+            <div class="w-[31%] h-[652px]">
+                <figure class="relative w-full  h-full"><img src="../assets//images/artist5.png" alt=""
+                        class="absolute w-full h-full object-cover"></figure>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- 140 520   1290 Subscribe And get our Updates Every Week -->
+    <section class="mt-[90px] flex justify-between w-full">
+        <div class="w-[31%] ">
+            <figure class="relative"><img src="../assets/images/subscribe1.png" alt="" class="absolute object-cover"></figure>
+            <figure class="relative pt-[30%] pl-[60%]"><img src="../assets/images/subscribe2.png" alt="" class="absolute object-cover"></figure>
+        </div>
+
+        <div class="w-[40%]">
+            <h2> Subscribe And <span class="text-lime-500"> get our Updates</span> Every Week</h2>
+            <p class="text-white pt-[20px] pb-[40px]">We have a blog related to NFT so we can share thoughts and routines on our blog which is updated weekly</p>
+      <!-- Text-area and button -->
+       <div class="flex">
+             <input type="email" placeholder="Enter your e-mail" class="w-full bg-[#131E3A]">
+             <button>Subscribe</button>
+        </div>
+        </div>
+    </section>
 </template>
 
 <script setup >
@@ -136,15 +208,17 @@ definePageMeta({
     background-image: url('../assets/images/group.svg');
     background-size: contain;
 }
+
 .image-hero {
     background-image: url('../assets/images/hero.png');
 }
-.container-clocks::before{
+
+.container-clocks::before {
     content: url('../assets/icons/clock.svg');
     padding-right: 12px;
 }
+
 .container-etherium::before {
     content: url('../assets/icons/ethereum-classic.svg');
     padding-right: 4px;
-}
-</style>
+}</style>

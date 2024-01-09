@@ -1,20 +1,19 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Spectral:wght@500&display=swap");
 /* font-family: 'Inter', sans-serif;
 font-family: 'Spectral', serif; */
 body {
-    @apply bg-black;
-    color: black;
-    padding-inline: 111px;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Inter', sans-serif;
-    }
+  @apply bg-black;
+  color: black;
+  padding-inline: 111px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
 button {
-    @apply
-     py-3
+  @apply py-3
      px-10
      rounded-lg 
      bg-lime-500 
@@ -27,5 +26,28 @@ button {
      hover:text-lime-500;
 }
 h1 {
-      font-family: 'Spectral', serif;
+  font-family: "Spectral", serif;
+}
+h2 {
+  @apply 
+    text-5xl
+    w-[560px]
+    text-white
+    leading-[120%];
+  font-family: "Spectral", serif;
+}
+header nav ul li,
+footer nav ul li {
+  @apply 
+    text-[16px]
+    pt-[8px]
+    hover:underline
+    hover:decoration-lime-500
+    hover:decoration-2;
+}
+footer nav ul>:first-child {
+    @apply
+    text-[20px]
+    pb-[24px]
+    font-bold
 }
