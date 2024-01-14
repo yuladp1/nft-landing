@@ -1,11 +1,13 @@
 <template>
-  <section class="flex justify-between gap-[10%] mt-[150px]">
-    <div class="w-[45%] grow-1 shrink-1 flex flex-col">
-      <h1 class="text-[64px] font-medium leading-[120%] shrink-1">
+  <section
+    class="flex flex-col gap-y-[20px] mt-[100px] md:flex-row md:justify-between gap-[10%] md:mt-[150px]"
+  >
+    <div class="w-full md:w-[45%] grow-1 shrink-1 flex flex-col">
+      <h1 class="text-[4rem] font-medium leading-[120%] shrink-1">
         Discover and Collect The Best NFTs
         <span class="text-lime-500"> Digital Art. </span>
       </h1>
-      <p class="hero-text text-[16px] pt-[20px] leading-[160%] shrink-1">
+      <p class="hero-text text-base pt-[20px] leading-[160%] shrink-1">
         Get started with the easiest and most secure platform to buy and trade digital ART
         and NFT’s. Start exploring the world of digital art and NFTs today and take
         control of your digital assets with confidence!
@@ -14,29 +16,29 @@
         <div><button class="">Explore Now</button></div>
         <div><button class="">Learn more</button></div>
       </div>
-      <div class="pt-72px flex justify-between pt-[72px] text-[48px] shrink-1">
+      <div class="pt-72px flex justify-between pt-[72px] text-[3rem] shrink-1">
         <div
           class="pr-[28px] border-r-[1px] border-lime flex flex-col justify-between shrink-1"
         >
           <p><span class="text-lime-500 shrink-1">8.9</span>K</p>
-          <p class="text-[16px] shrink-1">Art work</p>
+          <p class="text-base shrink-1">Art work</p>
         </div>
         <div class="pr-[28px] border-r-[1px] border-lime shrink-1">
           <p>
             <span class="text-lime-500 shrink-1">{{ targetValue }}</span
             >K
           </p>
-          <p class="pt-[8px] text-[16px] shrink-1">Artist</p>
+          <p class="pt-[8px] text-base shrink-1">Artist</p>
         </div>
         <div class="pr-[28px] shrink-1">
           <p><span class="text-lime-500 shrink-1">87</span>K</p>
-          <p class="pt-[8px] text-[16px] shrink-1">Collection</p>
+          <p class="pt-[8px] text-base shrink-1">Collection</p>
         </div>
       </div>
     </div>
 
     <div
-      class="image-hero mr-[40px] relative w-[464px] h-[544px] rounded-3xl flex grow-0 shrink-1 bg-no-repeat bg-cover"
+      class="image-hero md:mr-[40px] mx-auto relative w-[300px] h-[400px] md:w-[464px] md:h-[544px] rounded-3xl flex grow-0 shrink-1 bg-no-repeat bg-cover"
     >
       <div>
         <figure
@@ -81,9 +83,11 @@
     <button class="self-end">See all</button>
   </section>
 
-  <section class="w-[100%] flex pt-[64px] justify-between flex-wrap">
+  <section
+    class="w-[100%] flex flex-col gap-y-[30px] md:flex-row pt-[64px] justify-between"
+  >
     <div
-      class="w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]"
+      class="md:w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]"
     >
       <div class="relative pb-[100%] w-[100%] rounded-[16px]">
         <img
@@ -96,12 +100,12 @@
         class="wrapper-text relative mt-[24px] flex flex-wrap items-center justify-between"
       >
         <span class="text-[24px]">Cyberpunk Cocomo</span>
-        <span class="container-etherium flex text-[16px]">490ETN</span>
+        <span class="container-etherium flex text-base">490ETN</span>
       </div>
       <div class="mt-[16px] flex justify-between items-center flex-wrap">
         <div class="">
           <p class="text-[#838382] text-sm">Ending in</p>
-          <div class="container-clocks flex text-[16px]">03:24:56</div>
+          <div class="container-clocks flex text-base">03:24:56</div>
         </div>
         <p
           class="leading-[52px] py-[12px] px-[40px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around"
@@ -111,7 +115,7 @@
       </div>
     </div>
     <div
-      class="w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]"
+      class="md:w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]"
     >
       <div class="relative pb-[100%] w-[100%] rounded-[16px]">
         <img
@@ -124,12 +128,12 @@
         class="wrapper-text relative mt-[24px] flex flex-wrap items-center justify-between"
       >
         <span class="text-[24px]">Cyberpunk Cocomo</span>
-        <span class="container-etherium flex text-[16px]">490ETN</span>
+        <span class="container-etherium flex text-base">490ETN</span>
       </div>
       <div class="mt-[16px] flex flex-wrap justify-between items-center">
         <div class="">
           <p class="text-[#838382] text-sm">Ending in</p>
-          <div class="container-clocks flex text-[16px]">03:24:56</div>
+          <div class="container-clocks flex text-base">03:24:56</div>
         </div>
         <p
           class="leading-[52px] py-[12px] px-[40px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around"
@@ -139,7 +143,7 @@
       </div>
     </div>
     <div
-      class="w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]"
+      class="md:w-[32%] flex-col bg-[#131E3A] rounded-[28px] border-2 border-transparent border-y-lime-900 p-[20px]"
     >
       <div class="relative pb-[100%] w-[100%] rounded-[16px]">
         <img
@@ -152,12 +156,12 @@
         class="wrapper-text relative mt-[24px] flex flex-wrap items-center justify-between"
       >
         <span class="text-[24px]">Cyberpunk Cocomo</span>
-        <span class="container-etherium flex text-[16px]">490ETN</span>
+        <span class="container-etherium flex text-base">490ETN</span>
       </div>
       <div class="mt-[16px] flex flex-wrap justify-between items-center">
         <div class="">
           <p class="text-[#838382] text-sm">Ending in</p>
-          <div class="container-clocks flex text-[16px]">03:24:56</div>
+          <div class="container-clocks flex text-base">03:24:56</div>
         </div>
         <p
           class="leading-[52px] py-[12px] px-[40px] border-[1px] border-lime-500 hover:border-white hover:text-lime-500 rounded-lg flex justify-around"
@@ -170,8 +174,8 @@
   <!--            -->
 
   <!-- Create And Sell Your Best NFTs -->
-  <section class="flex flex-wrap justify-between mt-[92px]">
-    <div class="w-[32%]">
+  <section class="flex flex-col md:flex-row gap-y-[30px] justify-between mt-[92px]">
+    <div class="w-full md:w-[32%]">
       <div>
         <h2>
           Create And Sell <br />
@@ -188,7 +192,7 @@
       </div>
     </div>
 
-    <div class="relative w-[32%] h-[475px]">
+    <div class="relative w-[50%] h-[300px] md:w-[32%] md:h-[475px] md:mx-0">
       <figure class="absolute top-0 right-0">
         <img src="../assets/images/bestNFT1.png" alt="" class="object-cover" />
       </figure>
@@ -210,48 +214,7 @@
     </div>
 
     <!-- Images block -->
-    <!-- <div class="flex justify-between items-stretch w-[100%]">
-      <div class="flex justify-between flex-wrap items-stretch w-[68%]">
-        <figure class="relative w-[40%] h-[311px]">
-          <img
-            src="../assets//images/artist1.png"
-            alt=""
-            class="absolute w-full h-full object-cover"
-          />
-        </figure>
-        <figure class="relative w-[56%]">
-          <img
-            src="../assets//images/artist2.png"
-            alt=""
-            class="absolute w-full h-full object-cover"
-          />
-        </figure>
 
-        <figure class="relative w-[47%] h-[311px]">
-          <img
-            src="../assets//images/artist3.png"
-            alt=""
-            class="absolute w-full h-full object-cover"
-          />
-        </figure>
-        <figure class="relative w-[47%] h-[311px]">
-          <img
-            src="../assets//images/artist4.png"
-            alt=""
-            class="absolute w-full h-full object-cover"
-          />
-        </figure>
-      </div>
-      <div class="w-[31%] h-[652px]">
-        <figure class="relative w-full h-full">
-          <img
-            src="../assets//images/artist5.png"
-            alt=""
-            class="absolute w-full h-full object-cover"
-          />
-        </figure>
-      </div>
-    </div> -->
     <div class="flex w-full gap-4">
       <div class="grid gap-4 grid-cols-10 grid-auto-flow w-[68%]">
         <img
@@ -289,7 +252,9 @@
   </section>
 
   <!-- 140 520   1290 Subscribe And get our Updates Every Week -->
-  <section class="mt-[90px] flex justify-between w-full">
+  <section
+    class="mt-[90px] flex flex-col md:flex-row gap-y-[30px] justify-between w-full"
+  >
     <div class="w-[31%]">
       <figure class="relative">
         <img src="../assets/images/subscribe1.png" alt="" class="absolute object-cover" />
@@ -299,8 +264,8 @@
       </figure>
     </div>
 
-    <div class="w-[40%]">
-      <h2>
+    <div class="md:w-[40%]">
+      <h2 class="w-full">
         Subscribe And <span class="text-lime-500"> get our Updates</span> Every Week
       </h2>
       <p class="pt-[20px] pb-[40px]">
