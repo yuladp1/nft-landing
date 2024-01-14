@@ -4,10 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Spectral:wght@500&display=swap");
 /* font-family: 'Inter', sans-serif;
 font-family: 'Spectral', serif; */
-body {
+* {
+  @apply 
+  text-white;
+}
+html, body{
   @apply bg-black;
-  color: black;
-  padding-inline: 111px;
   display: flex;
   flex-direction: column;
   font-family: "Inter", sans-serif;
@@ -21,20 +23,23 @@ button {
      ease-in-out
      delay-150
      duration-500
-     text-white
-     hover:bg-white 
-     hover:text-lime-500;
-}
+      hover:bg-white 
+     hover:text-lime-500
+     py-3 ml-auto  }
 h1 {
   font-family: "Spectral", serif;
+ 
 }
 h2 {
   @apply 
     text-5xl
     w-[560px]
-    text-white
-    leading-[120%];
+    leading-[120%]
+    text-white;
   font-family: "Spectral", serif;
+}
+ul {
+  font-size: 16px;
 }
 header nav ul li,
 footer nav ul li {
@@ -43,7 +48,8 @@ footer nav ul li {
     pt-[8px]
     hover:underline
     hover:decoration-lime-500
-    hover:decoration-2;
+    hover:decoration-2
+    hover:underline-offset-8
 }
 footer nav ul>:first-child {
     @apply
