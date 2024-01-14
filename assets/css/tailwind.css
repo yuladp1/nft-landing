@@ -30,11 +30,17 @@ button {
      ml-auto  }
 h1 {
   font-family: "Spectral", serif;
- 
+  @apply
+  text-5xl 
+  md:text-[4rem] 
+  font-medium 
+  md:leading-[120%] 
+  
 }
 h2 {
   @apply 
-    text-5xl
+    text-3xl
+    md:text-5xl
     w-full
     leading-[120%]
     text-white;

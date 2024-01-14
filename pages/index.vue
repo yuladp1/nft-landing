@@ -3,7 +3,7 @@
     class="flex flex-col gap-y-[20px] mt-[100px] md:flex-row md:justify-between gap-[10%] md:mt-[150px]"
   >
     <div class="w-full md:w-[45%] grow-1 shrink-1 flex flex-col">
-      <h1 class="text-5xl md:text-[4rem] font-medium md:leading-[120%] shrink-1">
+      <h1 class="">
         Discover and Collect The Best NFTs
         <span class="text-lime-500"> Digital Art. </span>
       </h1>
@@ -51,9 +51,9 @@
           />
         </figure>
       </div>
-
+      <!-- Section above the hero-image -->
       <div
-        class="absolute w-[304px] p-[20px] bg-[#131E3A] flex flex-col align-center z-10 bottom-[-50px] right-[-50px] rounded-[16px] border-2 border-transparent border-y-lime-900"
+        class="absolute w-[304px] p-[20px] bg-[#131E3A] flex flex-col align-center z-10 bottom-[-50px] right-[-30px] md:right-[-50px] rounded-[16px] border-2 border-transparent border-y-lime-900"
       >
         <div class="flex justify-between w-[100%] rounded-[16px]">
           <div>
@@ -177,11 +177,10 @@
 
   <!-- Create And Sell Your Best NFTs -->
   <section class="flex flex-col md:flex-row gap-y-[30px] justify-between mt-[92px]">
-    <div class="w-full md:w-[32%]">
+    <div class="w-full md:basis-1/3">
       <div>
-        <h2>
-          Create And Sell <br />
-          <span class="text-lime-500"> Best NFTs</span>
+        <h2 class="md:basis-2/3">
+          Create And Sell<span class="text-lime-500"> Best NFTs</span>
         </h2>
         <p class="pt-[20px]">
           Start exploring the world of digital art and NFTs today and take control of your
@@ -208,9 +207,8 @@
 
   <section class="pt-[60px] md:pt-[100px]">
     <div class="flex flex-col md:flex-row justify-between items-center">
-      <h2>
-        Popular <span class="text-lime-500">Artists</span> <br />
-        On This Week
+      <h2 class="basis-2/5">
+        Popular <span class="text-lime-500">Artists</span> On This Week
       </h2>
       <button class="mx-2 mb-4 w-full md:w-auto">See all</button>
     </div>
