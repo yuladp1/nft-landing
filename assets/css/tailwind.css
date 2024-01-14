@@ -25,7 +25,9 @@ button {
      duration-500
       hover:bg-white 
      hover:text-lime-500
-     py-3 ml-auto  }
+     py-3 
+     w-full
+     ml-auto  }
 h1 {
   font-family: "Spectral", serif;
  
@@ -33,7 +35,7 @@ h1 {
 h2 {
   @apply 
     text-5xl
-    w-[560px]
+    w-full
     leading-[120%]
     text-white;
   font-family: "Spectral", serif;

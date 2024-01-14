@@ -1,27 +1,30 @@
 <template>
-  <header>
-    <!-- Navigation for full-screen -->
-    <div
-      class="h-[80px] fixed top-[20px] hidden md:flex items-center justify-between bg-white/20 z-10 w-[82%] mx-[8%] px-2 rounded-2xl"
-    >
-      <nav class="flex justify-between">
-        <ul class="flex items-center gap-10">
-          <li class=" ">Marketplace</li>
-          <li class="">Artists</li>
-          <li class="">Community</li>
-          <li class="">Collections</li>
-        </ul>
-      </nav>
-      <button>Contact</button>
-    </div>
-    <!--  -------------------------------------    -->
+  <div class="mx-[8%]">
+    <header class="w-full">
+      <!-- Navigation for full-screen -->
+      <div
+        class="w-full h-[80px] fixed top-[20px] hidden md:flex items-center justify-between bg-white/20 z-10 px-2 rounded-2xl"
+      >
+        <nav class="flex justify-between">
+          <ul class="flex items-center gap-10">
+            <li class=" ">Marketplace</li>
+            <li class="">Artists</li>
+            <li class="">Community</li>
+            <li class="">Collections</li>
+          </ul>
+        </nav>
 
-    <!-- Navigation for small devices -->
-    <div class="flex w-full h-[60px] z-30 bg-white/50 fixed md:hidden">
-      <div class="flex flex-col w-full justify-between items-center">
-        <div class="flex w-full justify-between items-center">
-          <div class=""><button>Contact</button></div>
-          <div>
+        <button class="w-auto ml-auto">Contact</button>
+      </div>
+      <!--  -------------------------------------    -->
+
+      <!-- Navigation for small devices -->
+      <div
+        class="flex content-center items-center w-full h-[60px] z-30 bg-white/50 fixed top-[20px] md:hidden"
+      >
+        <div class="flex flex-col w-full justify-between items-center">
+          <div class="flex w-full justify-between content-center justify-center">
+            <button class="w-auto ml-2">Contact</button>
             <div
               id="burger"
               @click="() => (burgerShow = !burgerShow)"
@@ -41,11 +44,9 @@
           </ul>
         </nav>
       </div>
-    </div>
-    <!-- --------------------------------- -->
-  </header>
+      <!-- --------------------------------- -->
+    </header>
 
-  <div class="mx-[8%]">
     <slot></slot>
 
     <footer class="mt-[300px] flex justify-between">

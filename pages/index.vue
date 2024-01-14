@@ -3,7 +3,7 @@
     class="flex flex-col gap-y-[20px] mt-[100px] md:flex-row md:justify-between gap-[10%] md:mt-[150px]"
   >
     <div class="w-full md:w-[45%] grow-1 shrink-1 flex flex-col">
-      <h1 class="text-[4rem] font-medium leading-[120%] shrink-1">
+      <h1 class="text-5xl md:text-[4rem] font-medium md:leading-[120%] shrink-1">
         Discover and Collect The Best NFTs
         <span class="text-lime-500"> Digital Art. </span>
       </h1>
@@ -75,12 +75,14 @@
   </section>
 
   <!-- section "Amazing and Super Unique Art of This Week" -->
-  <section class="flex justify-between mt-[92px]">
-    <h2 class="">
+  <section
+    class="flex flex-col justify-start md:flex-row md:justify-between mt-[60px] md:mt-[92px]"
+  >
+    <h2>
       <span class="text-lime-500">Amazing</span> and Super Unique Art of This
       <span class="text-lime-500">Week</span>
     </h2>
-    <button class="self-end">See all</button>
+    <button class="mx-0 w-full md:w-auto md:self-end">See all</button>
   </section>
 
   <section
@@ -204,13 +206,13 @@
 
   <!-- Popular Artists On This Week -->
 
-  <section class="pt-[100px]">
-    <div class="flex justify-between items-center">
+  <section class="pt-[60px] md:pt-[100px]">
+    <div class="flex flex-col md:flex-row justify-between items-center">
       <h2>
         Popular <span class="text-lime-500">Artists</span> <br />
         On This Week
       </h2>
-      <button>See all</button>
+      <button class="mx-2 mb-4 w-full md:w-auto">See all</button>
     </div>
 
     <!-- Images block -->
