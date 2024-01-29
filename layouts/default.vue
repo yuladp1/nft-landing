@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-[8%]">
+  <div class="container w-[84%] mx-auto">
     <div class="container mx-auto">
-      <header class="container">
+      <header class="container w-full">
         <!-- Navigation for full-screen-->
         <div
           class="container h-[80px] fixed top-[20px] hidden md:flex items-center justify-between bg-white/20 z-10 px-2 rounded-2xl"
@@ -21,21 +21,19 @@
 
         <!-- Navigation for small devices -->
         <div
-          class="container mx-auto fixed flex flex-col content-center items-center h-[60px] z-30 bg-white/50 top-[20px] md:hidden"
+          class="container w-[60%] mx-auto fixed flex flex-col content-center items-center h-[60px] z-30 bg-white/50 top-[20px] md:hidden"
         >
-          <div
-            class="flex flex-col w-full justify-between content-center items-center justify-center"
-          >
-            <div
-              class="container flex w-full justify-between content-center justify-center items-center"
-            >
-              <button class="w-auto ml-2">Contact</button>
+          <div class="flex flex-col">
+            <div class="flex justify-between rounded-2xl px-2">
+              <div><button class="w-auto">Contact</button></div>
 
-              <div
-                id="burger"
-                @click="() => (burgerShow = !burgerShow)"
-                :class="{ active: burgerShow }"
-              ></div>
+              <div>
+                <div
+                  id="burger"
+                  @click="() => (burgerShow = !burgerShow)"
+                  :class="{ active: burgerShow }"
+                ></div>
+              </div>
             </div>
           </div>
           <nav
